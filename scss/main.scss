@@ -1,0 +1,70 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+$primary:#3292a6;
+
+
+body {
+  margin-top: 105px;
+}
+.navbar {
+  box-shadow: 2px 2px 5px $primary;
+  // opacity: 0.9;
+  background: #fff;
+  z-index:2;
+  
+
+  .nav-item {
+    font-size: 1.4rem;
+    padding-right:1.4rem;
+  }
+
+  h3 {
+    font-family: 'Vibes', cursive;
+  }
+}
+
+
+
+
+// showcase
+
+#showcase {
+  background:linear-gradient(to right ,rgba(10, 13, 14, 0.8),rgba(50, 146, 166,0.8)), url("/dist/img/showcasebg.jpg") no-repeat center center/cover;
+  
+
+  
+  p,h1 {
+    font-family: 'Aref Ruqaa', serif;
+  }
+
+}
+
+.info-header {
+  width: 35%;
+  margin:auto;
+  border-bottom: 1px #ddd solid;
+}
+
+
+
+
+
+@media(max-width: 500px) {
+  #showcase {
+    min-height: 500px;
+    h1 {
+      font-size: 4rem;
+    }
+  }
+
+  .mb-resp {
+    margin-bottom: 1rem;
+  }
+
+  .info-header {
+    width: 90%;
+  }
+}
+
+
+
